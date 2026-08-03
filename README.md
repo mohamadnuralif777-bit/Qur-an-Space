@@ -4,6 +4,12 @@ Qur'an Space adalah kerangka website statis bertema belajar Islam yang dirancang
 
 Website ini cocok untuk GitHub Pages, tanpa backend dan tanpa build step.
 
+## Mulai Cepat
+
+1. Simpan file materi HTML ke folder kategori di dalam `materi/`.
+2. Tambahkan entri file tersebut ke `materi/manifest.json`.
+3. Buka `index.html` melalui GitHub Pages atau server lokal.
+
 ## Struktur Folder
 
 ```text
@@ -52,6 +58,7 @@ Contoh format entri manifest:
 ```
 
 > Pastikan nilai `path` sesuai lokasi file HTML yang diupload.
+> Gunakan path file lokal relatif dan akhiri dengan `.html`.
 
 ## Menjalankan Lokal
 

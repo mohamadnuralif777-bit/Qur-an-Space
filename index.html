@@ -17,6 +17,15 @@
   </header>
 
   <main class="container">
+    <section class="panel" aria-labelledby="pakai-title">
+      <h2 id="pakai-title">Mulai Pakai Cepat</h2>
+      <ol class="langkah-list">
+        <li>Taruh file HTML materi di folder <code>materi/</code> sesuai kategori.</li>
+        <li>Tambahkan data materi ke <code>materi/manifest.json</code>.</li>
+        <li>Deploy ke GitHub Pages atau jalankan server lokal untuk melihat hasilnya.</li>
+      </ol>
+    </section>
+
     <section class="panel" aria-labelledby="kategori-title">
       <h2 id="kategori-title">Kategori Materi</h2>
       <nav id="kategori-nav" class="kategori-nav" aria-label="Navigasi kategori materi">
@@ -27,7 +36,7 @@
     <section class="panel" aria-labelledby="materi-title">
       <div class="panel-head">
         <h2 id="materi-title">Daftar Materi</h2>
-        <p class="hint">Data diambil dari <code>materi/manifest.json</code>.</p>
+        <p class="hint"><span id="total-materi">0</span> materi terdaftar dari <code>materi/manifest.json</code>.</p>
       </div>
       <div id="materi-list" class="materi-list" aria-live="polite">
         <p class="hint">Memuat daftar materi...</p>

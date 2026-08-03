@@ -81,6 +81,15 @@ h3 {
   font-size: 0.95rem;
 }
 
+.langkah-list {
+  margin: 0.8rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.langkah-list li + li {
+  margin-top: 0.35rem;
+}
+
 .kategori-nav {
   margin-top: 0.9rem;
   display: flex;
