@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qur'an Space | Belajar Islam</title>
+  <meta name="description" content="Qur'an Space: ruang belajar Islam dengan daftar materi HTML yang dikelola lewat manifest.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+      <h1>Qur'an Space</h1>
+      <p class="tagline">Ruang belajar Islam yang rapi, mudah diisi, dan siap berkembang.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel" aria-labelledby="kategori-title">
+      <h2 id="kategori-title">Kategori Materi</h2>
+      <nav id="kategori-nav" class="kategori-nav" aria-label="Navigasi kategori materi">
+        <p class="hint">Memuat kategori...</p>
+      </nav>
+    </section>
+
+    <section class="panel" aria-labelledby="materi-title">
+      <div class="panel-head">
+        <h2 id="materi-title">Daftar Materi</h2>
+        <p class="hint">Data diambil dari <code>materi/manifest.json</code>.</p>
+      </div>
+      <div id="materi-list" class="materi-list" aria-live="polite">
+        <p class="hint">Memuat daftar materi...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Qur'an Space — Semoga bermanfaat untuk menuntut ilmu.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
