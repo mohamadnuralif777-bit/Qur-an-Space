@@ -1,0 +1,44 @@
+[
+  {
+    "judul": "Contoh Materi Al-Qur'an",
+    "kategori": "Al-Qur'an",
+    "path": "materi/al-quran/contoh-materi.html",
+    "deskripsi": "Template awal untuk materi tafsir, tajwid, atau ulum Al-Qur'an."
+  },
+  {
+    "judul": "Contoh Materi Hadits",
+    "kategori": "Hadits",
+    "path": "materi/hadits/contoh-materi.html",
+    "deskripsi": "Template awal untuk materi hadits, sanad, dan syarah hadits."
+  },
+  {
+    "judul": "Contoh Materi Fiqih",
+    "kategori": "Fiqih",
+    "path": "materi/fiqih/contoh-materi.html",
+    "deskripsi": "Template awal untuk materi ibadah, muamalah, dan bab fiqih lainnya."
+  },
+  {
+    "judul": "Contoh Materi Aqidah",
+    "kategori": "Aqidah",
+    "path": "materi/aqidah/contoh-materi.html",
+    "deskripsi": "Template awal untuk materi tauhid dan pokok keyakinan Islam."
+  },
+  {
+    "judul": "Contoh Materi Sirah Nabawi",
+    "kategori": "Sirah Nabawi",
+    "path": "materi/sirah/contoh-materi.html",
+    "deskripsi": "Template awal untuk materi perjalanan hidup Rasulullah ﷺ."
+  },
+  {
+    "judul": "Contoh Materi Akhlak",
+    "kategori": "Akhlak",
+    "path": "materi/akhlak/contoh-materi.html",
+    "deskripsi": "Template awal untuk materi adab dan pembinaan akhlak muslim."
+  },
+  {
+    "judul": "Contoh Materi Lainnya",
+    "kategori": "Lainnya",
+    "path": "materi/lainnya/contoh-materi.html",
+    "deskripsi": "Template awal untuk materi umum yang belum masuk kategori lain."
+  }
+]
