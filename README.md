@@ -9,6 +9,7 @@ Website ini cocok untuk GitHub Pages, tanpa backend dan tanpa build step.
 1. Simpan file materi HTML ke folder kategori di dalam `materi/`.
 2. Tambahkan entri file tersebut ke `materi/manifest.json`.
 3. Buka `index.html` melalui GitHub Pages atau server lokal.
+4. Gunakan kolom **Cari materi** dan **Filter kategori** di beranda untuk menemukan materi lebih cepat.
 
 ## Struktur Folder
 

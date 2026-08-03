@@ -90,6 +90,36 @@ h3 {
   margin-top: 0.35rem;
 }
 
+.filter-tools {
+  margin-top: 0.9rem;
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 0.8rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.field input,
+.field select {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.58rem 0.65rem;
+  color: var(--text);
+  background: #fff;
+}
+
+.field input:focus-visible,
+.field select:focus-visible {
+  outline: 2px solid #93c8a9;
+  border-color: #7fb996;
+}
+
 .kategori-nav {
   margin-top: 0.9rem;
   display: flex;
@@ -168,6 +198,10 @@ h3 {
 @media (max-width: 680px) {
   .hero {
     padding-top: 3rem;
+  }
+
+  .filter-tools {
+    grid-template-columns: 1fr;
   }
 
   .panel {
